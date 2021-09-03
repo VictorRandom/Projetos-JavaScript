@@ -9,5 +9,5 @@
  - Projeto 1: [Bateria](/projeto01)
  - Projeto 2: [Relógio](/projeto02)
  - Projeto 3: [Temperatura](/projeto03)
- - Projeto 4: [Quix](/projeto04)
+ - Projeto 4: [Quiz](/projeto04)
  - Projeto 5: [Change Background Color](/projeto05)
