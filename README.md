@@ -16,3 +16,6 @@
     <img src="./images/projeto04.PNG" width="300px" height="300px">
  - Projeto 5: [Change Background Color](/projeto05) </br>
     <img src="./images/projeto05.PNG" width="300px" height="300px">
+ - Projeto 6: [Expanding Cards](/projeto06)</br>
+    <img src="./images/projeto06.PNG" width="300px" height="300px">
+   
