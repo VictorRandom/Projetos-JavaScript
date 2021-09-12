@@ -40,7 +40,7 @@ body{
     position: absolute;
 
     bottom: 20px;
-    left: 40px;
+    left: 20px;
     margin: 0;
     opacity: 0;
 }
@@ -54,7 +54,7 @@ body{
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 500px) { /*só ira valer se a tela tiver no MAXIMO 480, se passar vai para as definições acima*/
+@media (max-width: 500px) { /*só ira valer se a tela tiver no MAXIMO 500px, se passar vai para as definições acima*/
     .container{
         width: 100vw;
     }

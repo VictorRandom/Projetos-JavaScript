@@ -1,0 +1,125 @@
+/* trocar todas as cores OK
+    borda do tabuleiro -
+    arrumar o footer
+*/
+
+
+/* ROOT ================================================*/
+*{
+    --charcoal: #274156;
+    --blue-sapphire: #1C6E8C;
+    --davys-grey: #605856;
+    --turqoise-blue: #59F8E8;
+    --light-gray: #D0CCD0;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* BODY ================================================*/
+body {
+    background-color: var(--light-gray);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+
+}
+
+/* HEADER ===============================================*/
+h1{
+    text-align: center;
+}
+
+/* MAIN ================================================*/
+main{
+    text-align: center;
+}
+
+#turn{
+    margin-bottom: 5%;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+
+    width: 20vw;
+    height: 20vh;
+}
+
+#winner{
+    display: none;
+}
+
+/* FOOTER ===============================================*/
+footer{
+    text-align: center;
+
+    margin-top: 5%;
+}
+
+#profile{
+    text-decoration: none;
+    color: black;
+}
+
+/* BUTTON ==============================================*/
+button{
+    margin-top: 5%;
+
+    background-color: var(--charcoal);
+
+    color: var(--light-gray);
+    font-size: 30px;
+
+    width: 50%;
+    height: 30%;
+
+    border-radius: 10px;
+    border-style: none;
+
+    border-style: solid;
+}
+/* RESPONSIVE ==========================================*/
+button:hover{
+    background-color: var(--blue-sapphire);
+    cursor: pointer;
+}
+
+#profile:hover{
+    color: var(--blue-sapphire);
+}
+
+.x::after{
+    background-image: url('https://images-ext-2.discordapp.net/external/N01VieJIzWI64DyKN7YITrkUT07PtuS6-NdmUn2cNPs/https/upload.wikimedia.org/wikipedia/commons/thumb/7/77/Letter_x.svg/1200px-Letter_x.svg.png?width=167&height=300');
+    background-size: 40px 80px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 80px;
+    display: inline-block;
+    content:""
+}
+
+.o::after{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/LetterO.svg/1200px-LetterO.svg.png');
+    background-size: 40px 60px;
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+    content:"";
+
+    transform: translate(-5%, 10%)
+}
