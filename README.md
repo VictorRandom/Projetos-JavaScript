@@ -21,5 +21,5 @@
     <img src="./images/projeto06.PNG" width="300px" height="300px">
  - Projeto 7: [Tic Tac Toe](/projeto07)</br>
     <img src="./images/projeto07.PNG" width="300px" height="300px">
-
-   
+ - Projeto 8: [Pokedex](/projeto07)</br>
+    <img src="./images/projeto08.PNG" width="300px" height="300px">   
