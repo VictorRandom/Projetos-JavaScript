@@ -62,6 +62,9 @@ main{
 
 #winner{
     display: none;
+
+    font-size: 500%;
+    color: var(--blue-sapphire);
 }
 
 /* FOOTER ===============================================*/
