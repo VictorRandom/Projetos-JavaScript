@@ -22,4 +22,6 @@
  - Projeto 7: [Tic Tac Toe](/projeto07)</br>
     <img src="./images/projeto07.PNG" width="300px" height="300px">
  - Projeto 8: [Pokedex](/projeto08)</br>
-    <img src="./images/projeto08.PNG" width="300px" height="300px">   
+    <img src="./images/projeto08.PNG" width="300px" height="300px">
+- Projeto 8: [Progress Bar](/projeto09)</br>
+    <img src="./images/projeto09.PNG" width="300px" height="300px">   
